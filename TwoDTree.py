@@ -191,8 +191,6 @@ class TwoDTree:
             self._checkPoint(cNode.getLeft(),range,next_depth,pointList)
             self._checkPoint(cNode.getRight(),range,next_depth,pointList)
 
-#        return pointList
-
     #pre-condition: x1 - float/int, y1 - float/int
     #post-condition: the info of the nearest point to query point (x1,y1) 
     def nearestNeighbor(self,x1,y1):
@@ -212,8 +210,6 @@ class TwoDTree:
     def _findNearest(self, qryPoint, cNode, best_dst, depth, bestNode):
         axis = depth % 2
         next_depth = depth + 1
-#        global best_dst 
-#        global bestNode 
 
         if cNode is None:
             return bestNode
