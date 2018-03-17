@@ -1,9 +1,9 @@
 # PGHcrime2DTree
 Simple program that stores and processes Pittsburgh 1990s Crime Data using a 2D tree.
 ## Note
-The main() and TwoDTreeDriver() are written to specifically parse crimefile.csv file. If you want to use the data structure with other file, you should change these two functions
+The main() and TwoDTreeDriver() are written to specifically parse crimefile-1.csv file. If you want to use the data structure with other file, you should change these two functions
 ## Included in this repository
-- crimefile.csv - Pittsburgh 1990s Crimes Data
+- crimefile-1.csv - Pittsburgh 1990s Crimes Data
 - TwoDTree.py - main program
 - PGHCrimes.kml - example output of option 6
 ## How to run
