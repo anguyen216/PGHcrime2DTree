@@ -256,8 +256,7 @@ def writeKML(kml_input):
     out_f.write("<Document>\n")
     out_f.write("<Style id='style1'>\n")
     out_f.write("<IconStyle><Icon>\n")
-    out_f.write("<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/b\
-lue-dot.png</href>\n")
+    out_f.write("<href>http://maps.gstatic.com/intl/en_ALL/mapfiles/ms/micons/blue-dot.png</href>\n")
     out_f.write("</Icon></IconStyle></Style>\n")
 
     for crime in kml_input:
@@ -266,8 +265,7 @@ lue-dot.png</href>\n")
         out_f.write("<description>" + crime[3] + "</description>\n")
         out_f.write("<styleUrl>#style1</styleUrl>\n")
         out_f.write("<Point>\n")
-        out_f.write("<coordinates>" + crime[8] + "," + crime[7] + "</coordinate\
-s>\n")
+        out_f.write("<coordinates>" + crime[8] + "," + crime[7] + "</coordinates>\n")
         out_f.write("</Point></Placemark>\n")
 
     out_f.write("</Document></kml>")
